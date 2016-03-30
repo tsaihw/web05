@@ -113,35 +113,35 @@ h6 {
   border-color: transparent;
 }
 .navbar-default .navbar-brand {
-  color: #222222;
-  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  color: #f4f4f4;
+  font-family: "cwTeXMing","Helvetica Neue",Helvetica,Arial,sans-serif;
 }/* navbar brand字型 */
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-  color: #222222;
+  color: #f4f4f4;
 }/* navbar brand滑鼠互動字型 */
 .navbar-default .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-default .navbar-toggle {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #222222;
+  border-color: #f4f4f4;
 }/* 小裝置按鈕 */
 .navbar-default .navbar-toggle .icon-bar {
   background-color: white;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #fed136;
+  background-color: #222222;
 }
 .navbar-default .nav li a {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Microsoft JhengHei",  sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
-  color: #222222;
+  color: #f4f4f4;
 }/* navbar list字型 */
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
@@ -151,19 +151,19 @@ h6 {
 .navbar-default .navbar-nav > .active > a {
   border-radius: 0;
   color: #333333;
-  background-color: #f2f2f2;
+  background-color: #222222;
 }/* navbar list捲動時跳到的顏色 */
 
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #333333;
-  background-color: #f2f2f2;
+  background-color: #222222;
 }/* navbar list用滑鼠選定時的顏色 */
 
 /* 大螢幕設定 */
 @media (min-width: 768px) {
   .navbar-default {
-    background-color: #f4f4f4;/* 滑動前navbar顏色 */
+    background-color: #222222;/* 滑動前navbar顏色 */
     padding: 23px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
@@ -180,7 +180,7 @@ h6 {
     border-radius: 3px;
   }
   .navbar-default.navbar-shrink {
-    background-color: #f4f4f4;/* 滑動後navbar顏色 */
+    background-color: #222222;/* 滑動後navbar顏色 */
     padding: 10px 0;
   }
   .navbar-default.navbar-shrink .navbar-brand {

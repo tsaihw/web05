@@ -1,0 +1,244 @@
+/*!
+ * Agency v1.0.7 (http://startbootstrap.com/template-overviews/agency)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+ @font-face {
+   font-family: 'cwTeXMing';
+   font-style: normal;
+   font-weight: 500;
+   src: url(//fonts.gstatic.com/ea/cwtexming/v3/cwTeXMing-zhonly.eot);
+   src: url(//fonts.gstatic.com/ea/cwtexming/v3/cwTeXMing-zhonly.eot?#iefix) format('embedded-opentype'),
+        url(//fonts.gstatic.com/ea/cwtexming/v3/cwTeXMing-zhonly.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/cwtexming/v3/cwTeXMing-zhonly.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/cwtexming/v3/cwTeXMing-zhonly.ttf) format('truetype');
+ }
+ @font-face {
+   font-family: 'cwTeXHei';
+   font-style: normal;
+   font-weight: 500;
+   src: url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.eot);
+   src: url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.eot?#iefix) format('embedded-opentype'),
+        url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/cwtexhei/v3/cwTeXHei-zhonly.ttf) format('truetype');
+      }
+body,
+{
+  font-family: "cwTeXMing","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  font-size:24px;
+      }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "cwTeXMing","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+      }
+
+/*網站顏色*/
+body,
+html {
+  width: 100%;
+  height: 100%;
+  padding-top: 30px;
+  background-color:#FFF6F2;
+}
+.text-muted {
+  color: #777777;
+}
+.text-primary {
+  color: #fed136;
+}
+p {
+  font-size: 14px;
+  line-height: 1.75;
+}
+p.large {
+  font-size: 16px;
+}
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+  outline: none;
+}
+a {
+  color: #fed136;
+}
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #fec503;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.lead {
+  font:18px "Microsoft JhengHei",  sans-serif;
+  font-weight: 400;
+  letter-spacing: 1.3px;
+  margin:0 0 20px;
+  line-height: 1.8;
+  text-align: justify;/* 左右對齊 */
+  text-justify:inter-ideograph;/* 左右對齊 */
+  }
+
+.content-section-a {
+      padding: 20px 0px 10px 0px;
+
+  }
+
+.content-section-b {
+      padding: 20px 0px 10px 0px;
+      border-top: 1px solid #e7e7e7;
+      border-bottom: 1px solid #e7e7e7;
+  }
+
+.navbar-default {
+  background-color: #222222;
+  border-color: transparent;
+}
+.navbar-default .navbar-brand {
+  color: #222222;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}/* navbar brand字型 */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+  color: #222222;
+}/* navbar brand滑鼠互動字型 */
+.navbar-default .navbar-collapse {
+  border-color: rgba(255, 255, 255, 0.02);
+}
+.navbar-default .navbar-toggle {
+  background-color: #fed136;
+  border-color: #fed136;
+}/* 小裝置按鈕 */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #fed136;
+}
+.navbar-default .nav li a {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #222222;
+}/* navbar list字型 */
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+  color: #777777;
+  outline: none;
+}/* navbar list滑鼠經過時的顏色 */
+.navbar-default .navbar-nav > .active > a {
+  border-radius: 0;
+  color: #333333;
+  background-color: #f2f2f2;
+}/* navbar list捲動時跳到的顏色 */
+
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #333333;
+  background-color: #f2f2f2;
+}/* navbar list用滑鼠選定時的顏色 */
+
+/* 大螢幕設定 */
+@media (min-width: 768px) {
+  .navbar-default {
+    background-color: #f4f4f4;/* 滑動前navbar顏色 */
+    padding: 23px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none;
+  }
+  .navbar-default .navbar-brand {
+    font-size: 2.5em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar-default .navbar-nav > .active > a {
+    border-radius: 3px;
+  }
+  .navbar-default.navbar-shrink {
+    background-color: #f4f4f4;/* 滑動後navbar顏色 */
+    padding: 10px 0;
+  }
+  .navbar-default.navbar-shrink .navbar-brand {
+    font-size: 2.0em;
+  }
+}
+header {
+  background-image: none
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
+}
+header .intro-text {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+header .intro-text .intro-lead-in {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+header .intro-text .intro-heading {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 25px;
+}
+@media (min-width: 768px) {
+  header .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+  header .intro-text .intro-lead-in {
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+  header .intro-text .intro-heading {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 75px;
+    margin-bottom: 50px;
+  }
+}
+body {
+  webkit-tap-highlight-color: #f4f4f4;
+}

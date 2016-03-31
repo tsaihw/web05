@@ -145,33 +145,34 @@ h6 {
 }/* navbar list字型 */
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
-  color: #777777;
+  color: #5abdbd;
   outline: none;
 }/* navbar list滑鼠經過時的顏色 */
 .navbar-default .navbar-nav > .active > a {
   border-radius: 0;
-  color: #333333;
+  color: #5abdbd;
   background-color: #222222;
 }/* navbar list捲動時跳到的顏色 */
 
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #333333;
+  color: #5abdbd;
   background-color: #222222;
 }/* navbar list用滑鼠選定時的顏色 */
 
 /* 大螢幕設定 */
 @media (min-width: 768px) {
   .navbar-default {
-    background-color: #222222;/* 滑動前navbar顏色 */
-    padding: 23px 0;
+    background-color: #f4f4f4;/* 滑動前navbar顏色大小 */
+    padding: 60px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
     border: none;
   }
   .navbar-default .navbar-brand {
-    font-size: 2.5em;
+    font-size: 3.5em;
+    color: #222222;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -180,11 +181,12 @@ h6 {
     border-radius: 3px;
   }
   .navbar-default.navbar-shrink {
-    background-color: #222222;/* 滑動後navbar顏色 */
-    padding: 10px 0;
+    background-color: #222222;/* 滑動後navbar顏色大小 */
+    padding: 5px 0;
   }
   .navbar-default.navbar-shrink .navbar-brand {
-    font-size: 2.0em;
+    font-size: 1.5em;
+    color: #f4f4f4;/* 滑動後brand顏色 */
   }
 }
 header {

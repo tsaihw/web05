@@ -26,19 +26,16 @@
       }
 body,
 {
-  font-family: "cwTeXMing","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 700;
-  font-size:24px;
-      }
+}
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "cwTeXMing","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "cwTeXMing",serif;
   font-weight: 700;
-      }
+}
 
 /*網站顏色會不小心露餡*/
 body,
@@ -67,16 +64,6 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
 }
 .lead {
   font:16px "Microsoft JhengHei",  sans-serif;
@@ -107,6 +94,7 @@ h6 {
 }
 
 .banner{
+      font-family: "cwTeXMing",serif;
       padding: 5px 0px 5px 0px;
       border-top: 1px solid #151515;
       background-color: #FFF6F2;
@@ -117,7 +105,7 @@ h6 {
       background-color: #151515;
 }
 .copyright {
-    font-family: "cwTeXMing","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "cwTeXMing",serif;
     color: #888888;
     padding-top: 8px;
     padding-bottom: 2px;
@@ -130,7 +118,7 @@ h6 {
 .navbar-default .navbar-brand {
   color: #222222;
   font-size: 1.9em;
-  font-family: "cwTeXMing","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "cwTeXMing",serif;
 }
 /* navbar brand與滑鼠互動字型
 .navbar-default .navbar-brand:hover,
@@ -253,57 +241,8 @@ h6 {
   }
 }
 header {
-  background-image: none
-  background-repeat: none;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  text-align: center;
-  color: white;
-}
-header .intro-text {
-  padding-top: 100px;
-  padding-bottom: 50px;
-}
-header .intro-text .intro-lead-in {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
-  font-size: 22px;
-  line-height: 22px;
-  margin-bottom: 25px;
-}
-header .intro-text .intro-heading {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 50px;
-  margin-bottom: 25px;
 }
 @media (min-width: 768px) {
-  header .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
-  }
-  header .intro-text .intro-lead-in {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-style: italic;
-    font-size: 40px;
-    line-height: 40px;
-    margin-bottom: 25px;
-  }
-  header .intro-text .intro-heading {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 75px;
-    line-height: 75px;
-    margin-bottom: 50px;
-  }
 }
 body {
-  webkit-tap-highlight-color: #f4f4f4;
 }

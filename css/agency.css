@@ -40,13 +40,13 @@ h6 {
   font-weight: 700;
       }
 
-/*網站顏色*/
+/*網站顏色會不小心露餡*/
 body,
 html {
   width: 100%;
   height: 100%;
-  padding-top: 30px;
-  background-color:#FFF6F2;
+  padding-top: 20px;
+  background-color:#222222;
 }
 p {
   font-size: 14px;

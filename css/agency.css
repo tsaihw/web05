@@ -213,7 +213,7 @@ h6 {
   .navbar-default .navbar-brand {
     font-size: 2.3em;
     color: #222222;
-    /* font-weight:bold;*/
+    /* font-weight:bold;*粗體看起來很不秀麗/
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;

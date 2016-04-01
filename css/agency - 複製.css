@@ -98,9 +98,9 @@ h6 {
 
 .content-section-b {
       padding: 20px 0px 10px 0px;
-      border-top: 2px solid #f0e3df;
-      border-bottom: 2px solid #f0e3df;
-      background-color: #fff6f3;
+      border-top: 1px ridge #f0e3df;
+      border-bottom: 1px solid #f0e3df;
+      background-color: #FFFaFa;
   }
   .copyright {
     font-family: "cwTeXMing","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -116,7 +116,7 @@ h6 {
 
 .banner{
       padding: 5px 0px 5px 0px;
-      border-top: 1px solid #151515;
+      border-top: 1px ridge #151515;
       background-color: #FFF6F2;
   }
 .footer
@@ -126,12 +126,13 @@ h6 {
   }
 /* navbar底色=小裝置 */
 .navbar-default {
-  background-color: #FFF6F2;
+  background-color: #fff6f2;
+  border-color: transparent;
 }
 /* navbar brand字型=小裝置 */
 .navbar-default .navbar-brand {
   color: #222222;
-  font-size: 1.9em;
+  font-size: 1.8em;
   font-family: "cwTeXMing","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 /* navbar brand與滑鼠互動字型
@@ -143,7 +144,7 @@ h6 {
 }*/
 /* 小裝置拉下的邊界顏色*/
 .navbar-default .navbar-collapse {
-  border-color: #ede0dc;
+  border-color: rgba(255, 255, 255, 0.02);
 }
 /* 小裝置按鈕 */
 .navbar-default .navbar-toggle {
@@ -152,7 +153,7 @@ h6 {
 }
 /* 小裝置按鈕的橫線 */
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #333333;
+  background-color: #222222;
 }
 /* 小裝置按鈕游標盤旋而過 */
 .navbar-default .navbar-toggle:hover,
@@ -181,14 +182,14 @@ h6 {
 .navbar-default .navbar-nav > .active > a {
   border-radius: 0;
   color: #222222;
-  background-color: #FFF6F2;
+  background-color: #FaFaFa;
 }
 
 /* navbar list用滑鼠選定時的顏色 */
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #222222;
-  background-color: #FFF6F2;
+  background-color: #FaFaFa;
 }
 /******************* navbar list*********************/
 
@@ -196,32 +197,32 @@ h6 {
 @media (min-width: 768px) {
 /* 滑動前navbar顏色&大小 */
   .navbar-default {
-    background-color: #FFF6F2;
+    background-color: #FaFaFa;
     padding: 10px 0;
     -webkit-transition: padding 0.7s;
     -moz-transition: padding 0.7s;
     transition: padding 0.7s;
-    border-top: 2px solid #151515;
+    border-top: 7px ridge #151515;
     border-bottom: 1px solid #f0e3df;
   }
-/* 滑動後navbar顏色&大小
+/* 滑動後navbar顏色&大小 */
   .navbar-default.navbar-shrink {
     background-color: #FaFaFa;
     padding: 10px 0;
-  }*/
+  }
 /* 滑動前brand顏色大小 */
   .navbar-default .navbar-brand {
-    font-size: 2.3em;
+    font-size: 2.1em;
     color: #222222;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
   }
-/* 滑動後brand顏色大小
+/* 滑動後brand顏色大小 */
   .navbar-default.navbar-shrink .navbar-brand {
-    font-size: 2.3em;
+    font-size: 2.1em;
     color: #222222;
-  }*/
+  }
   .navbar-default .navbar-nav > .active > a {
     border-radius: 3px;
   }
@@ -229,7 +230,7 @@ h6 {
   .navbar-default .navbar-nav > .active > a {
     border-radius: 0;
     color: #222222;
-    background-color: #FFF6F2;
+    background-color: #FaFaFa;
     border-bottom: 2px solid #555555;
   }
 }

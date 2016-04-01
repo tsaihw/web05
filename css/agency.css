@@ -48,12 +48,6 @@ html {
   padding-top: 30px;
   background-color:#FFF6F2;
 }
-.text-muted {
-  color: #777777;
-}
-.text-primary {
-  color: #fed136;
-}
 p {
   font-size: 14px;
   line-height: 1.75;
@@ -99,14 +93,36 @@ h6 {
 
 .content-section-a {
       padding: 20px 0px 10px 0px;
-
+      background-color: #FaFaFa;
   }
 
 .content-section-b {
       padding: 20px 0px 10px 0px;
-      border-top: 1px solid #e7e7e7;
-      border-bottom: 1px solid #e7e7e7;
-      background-color: #f1e9e9;
+      border-top: 1px ridge #f0e3df;
+      border-bottom: 1px solid #f0e3df;
+      background-color: #FFFaFa;
+  }
+  .copyright {
+    font-family: "cwTeXMing","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #888888;
+    padding-top: 8px;
+    padding-bottom: 2px;
+  }
+  .section-heading-spacer {
+      float: left;
+      width: 500px;
+      border-top: 0px solid #e7e7e7;
+  }
+
+.banner{
+      padding: 5px 0px 5px 0px;
+      border-top: 1px ridge #151515;
+      background-color: #FFF6F2;
+  }
+.footer
+{
+      padding: 3px 0px 1px 0px;
+      background-color: #151515;
   }
 
 .navbar-default {
@@ -137,6 +153,9 @@ h6 {
 .navbar-default .navbar-toggle:focus {
   background-color: #f4f4f4;
 }
+
+
+/******************* navbar list*********************/
 .navbar-default .nav li a {
   font-family: "Microsoft JhengHei",  sans-serif;
   text-transform: uppercase;
@@ -153,43 +172,46 @@ h6 {
 .navbar-default .navbar-nav > .active > a {
   border-radius: 0;
   color: #222222;
-  background-color: #FFF6F2;
+  background-color: #FaFaFa;
+  border-bottom: 2px solid #555555;
 }/* navbar list捲動時跳到的顏色 */
 
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #222222;
-  background-color: #FFF6F2;
+  background-color: #FaFaFa;
 }/* navbar list用滑鼠選定時的顏色 */
+/******************* navbar list*********************/
 
 /* 大螢幕設定 */
 @media (min-width: 768px) {
   .navbar-default {
-    background-color: #FFF6F2;/* 滑動前navbar顏色大小 */
+    background-color: #FaFaFa;
     padding: 10px 0;
     -webkit-transition: padding 0.7s;
     -moz-transition: padding 0.7s;
     transition: padding 0.7s;
-    border: none;
-  }
+    border-top: 7px ridge #151515;
+    border-bottom: 1px solid #f0e3df;
+  }/* 滑動前navbar顏色&大小 */
+  .navbar-default.navbar-shrink {
+    background-color: #FaFaFa;
+    padding: 10px 0;
+  }/* 滑動後navbar顏色&大小 */
   .navbar-default .navbar-brand {
-    font-size: 2.0em;
+    font-size: 2.1em;
     color: #222222;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
   }/* 滑動前brand顏色大小 */
+  .navbar-default.navbar-shrink .navbar-brand {
+    font-size: 2.1em;
+    color: #222222;
+  }/* 滑動後brand顏色大小 */
   .navbar-default .navbar-nav > .active > a {
     border-radius: 3px;
   }
-  .navbar-default.navbar-shrink {
-    background-color: #FFF6F2;/* 滑動後navbar顏色大小 */
-    padding: 10px 0;
-  }
-  .navbar-default.navbar-shrink .navbar-brand {
-    font-size: 1.8em;
-    color: #222222;
-  }/* 滑動後brand顏色大小 */
 }
 header {
   background-image: none

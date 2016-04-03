@@ -3,26 +3,17 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
-
-
-
-@font-face {
-    font-family: 'honokamin';
-    src: url('honokamin.ttf');
-
-    font-weight: normal;
-    font-style: normal;
-
-}
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexming.css);
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexhei.css);
  /*@font-face {
-   font-family: 'honokamin';
+   font-family: 'cwTeXMing';
    font-style: normal;
    font-weight: 500;
-   src: url(//fonts.gstatic.com/ea/honokamin/v3/honokamin-zhonly.eot);
-   src: url(//fonts.gstatic.com/ea/honokamin/v3/honokamin-zhonly.eot?#iefix) format('embedded-opentype'),
-        url(//fonts.gstatic.com/ea/honokamin/v3/honokamin-zhonly.woff2) format('woff2'),
-        url(//fonts.gstatic.com/ea/honokamin/v3/honokamin-zhonly.woff) format('woff'),
-        url(//fonts.gstatic.com/ea/honokamin/v3/honokamin-zhonly.ttf) format('truetype');
+   src: url(//fonts.gstatic.com/ea/cwtexming/v3/cwTeXMing-zhonly.eot);
+   src: url(//fonts.gstatic.com/ea/cwtexming/v3/cwTeXMing-zhonly.eot?#iefix) format('embedded-opentype'),
+        url(//fonts.gstatic.com/ea/cwtexming/v3/cwTeXMing-zhonly.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/cwtexming/v3/cwTeXMing-zhonly.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/cwtexming/v3/cwTeXMing-zhonly.ttf) format('truetype');
  }*/
  /*@font-face {
    font-family: 'cwTeXHei';
@@ -43,7 +34,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "honokamin",serif;
+  font-family: "cwTeXMing",serif;
   font-weight: 700;
 }
 
@@ -104,7 +95,7 @@ a.active {
 }
 
 .banner{
-      font-family: "honokamin",serif;
+      font-family: "cwTeXMing",serif;
       padding: 5px 0px 5px 0px;
       border-top: 1px solid #151515;
       background-color: #FFF6F2;
@@ -115,7 +106,7 @@ a.active {
       background-color: #151515;
 }
 .copyright {
-    font-family: "honokamin",serif;
+    font-family: "cwTeXMing",serif;
     color: #888888;
     padding-top: 8px;
     padding-bottom: 2px;
@@ -128,7 +119,7 @@ a.active {
 .navbar-default .navbar-brand {
   color: #222222;
   font-size: 1.9em;
-  font-family: "honokamin",serif;
+  font-family: "cwTeXMing",serif;
 }
 /* navbar brand與滑鼠互動字型
 .navbar-default .navbar-brand:hover,

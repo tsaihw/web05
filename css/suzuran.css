@@ -3,17 +3,25 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
+/*https://www.google.com/fonts/earlyaccess*/
 @import url(http://fonts.googleapis.com/earlyaccess/cwtexming.css);
 @import url(http://fonts.googleapis.com/earlyaccess/cwtexhei.css);
+
+@font-face {
+  font-family: 'jasmine';
+  src: url('../fonts/KC.ttf');
+}
+
  /*@font-face {
-   font-family: 'cwTeXMing';
+   font-family: 'jasmine';
    font-style: normal;
    font-weight: 500;
-   src: url(//fonts.gstatic.com/ea/cwtexming/v3/cwTeXMing-zhonly.eot);
-   src: url(//fonts.gstatic.com/ea/cwtexming/v3/cwTeXMing-zhonly.eot?#iefix) format('embedded-opentype'),
-        url(//fonts.gstatic.com/ea/cwtexming/v3/cwTeXMing-zhonly.woff2) format('woff2'),
-        url(//fonts.gstatic.com/ea/cwtexming/v3/cwTeXMing-zhonly.woff) format('woff'),
-        url(//fonts.gstatic.com/ea/cwtexming/v3/cwTeXMing-zhonly.ttf) format('truetype');
+   src: url(//fonts.gstatic.com/ea/jasmine/v3/jasmine-zhonly.eot);
+   src: url(//fonts.gstatic.com/ea/jasmine/v3/jasmine-zhonly.eot?#iefix) format('embedded-opentype'),
+        url(//fonts.gstatic.com/ea/jasmine/v3/jasmine-zhonly.woff2) format('woff2'),
+        url(//fonts.gstatic.com/ea/jasmine/v3/jasmine-zhonly.woff) format('woff'),
+        url(//fonts.gstatic.com/ea/jasmine/v3/jasmine-zhonly.ttf) format('truetype');
  }*/
  /*@font-face {
    font-family: 'cwTeXHei';
@@ -34,7 +42,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "cwTeXMing",serif;
+  font-family: "cwtexming",serif;
   font-weight: 700;
 }
 
@@ -95,10 +103,13 @@ a.active {
 }
 
 .banner{
-      font-family: "cwTeXMing",serif;
+      font-family: "cwtexming",serif;
       padding: 5px 0px 5px 0px;
       border-top: 1px solid #151515;
       background-color: #FFF6F2;
+}
+.banner-head{
+      font-family: "jasmine",serif;
 }
 .footer
 {
@@ -106,7 +117,8 @@ a.active {
       background-color: #151515;
 }
 .copyright {
-    font-family: "cwTeXMing",serif;
+    font-family: "Microsoft JhengHei",serif;
+    font-size: 0.9em;
     color: #888888;
     padding-top: 8px;
     padding-bottom: 2px;
@@ -119,7 +131,7 @@ a.active {
 .navbar-default .navbar-brand {
   color: #222222;
   font-size: 1.9em;
-  font-family: "cwTeXMing",serif;
+  font-family: "jasmine",serif;
 }
 /* navbar brand與滑鼠互動字型
 .navbar-default .navbar-brand:hover,
@@ -155,7 +167,7 @@ a.active {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
-  font-size: 1.2em;
+  font-size: 1.1em;
   color: #626262;
 }
 /* navbar list滑鼠經過上空時的顏色 */
@@ -218,6 +230,7 @@ a.active {
   }*/
 /* 滑動前brand顏色大小 */
   .navbar-default .navbar-brand {
+    font-family: "jasmine",serif;
     font-size: 2.3em;
     color: #222222;
     /* font-weight:bold;粗體看起來很不秀麗*/

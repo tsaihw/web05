@@ -111,14 +111,23 @@ font-family: "cwtexming",serif;
       border-top: 0px solid #e7e7e7;
 }
 .banner{
-      font-family: "cwtexming",serif;
       padding: 5px 0px 5px 0px;
       border-top: 1px solid #151515;
       background-color: #FFF6F2;
 }
 .banner-head{
       font-family: "jasmine",serif;
+      font-weight: 400;
 }
+.banner-content{
+      font:18px "Microsoft JhengHei",  sans-serif;
+      font-weight: 400;
+      letter-spacing: 0.5px;
+      margin:0 0 8px 2px;
+      line-height: 1.6;
+      text-align: left
+}
+
 .footer
 {
       padding: 3px 0px 1px 0px;
@@ -157,17 +166,18 @@ font-family: "cwtexming",serif;
 }
 /* 小裝置按鈕 */
 .navbar-default .navbar-toggle {
-  background-color: #f4f4f4;
+  margin: 5px 15px 10px 10px;
+  background-color: #555555;
   border-color: none;
 }
 /* 小裝置按鈕的橫線 */
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #333333;
+  background-color: #f4f4f4;
 }
 /* 小裝置按鈕游標盤旋而過 */
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #f4f4f4;
+  background-color: #555555;
 }
 
 
@@ -175,9 +185,9 @@ font-family: "cwtexming",serif;
 /* navbar list字型顏色=所有裝置*/
 .navbar-default .nav li a {
   font-family: "Microsoft JhengHei",  sans-serif;
-  text-transform: uppercase;
   font-weight: 400;
-  letter-spacing: 1px;
+  letter-spacing: 0.8px;
+  padding: 10px 10px 5px 10px;
   font-size: 1.1em;
   color: #626262;
 }
@@ -227,7 +237,7 @@ font-family: "cwtexming",serif;
 /* 滑動前navbar顏色&大小 */
   .navbar-default {
     background-color: #FFF6F2;
-    padding: 10px 0 0 0;
+    padding: 8px 0 0 0;
     -webkit-transition: padding 0.7s;
     -moz-transition: padding 0.7s;
     transition: padding 0.7s;
@@ -258,7 +268,7 @@ font-family: "cwtexming",serif;
     border-radius: 3px;
   }
 /* navbar list捲動時跳到的顏色 */
-  .navbar-default .navbar-nav > .active > a {
+.navbar-default .navbar-nav > .active > a {
     border-radius: 0;
     color: #222222;
     background-color: #FFF6F2;

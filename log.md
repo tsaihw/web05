@@ -5,3 +5,4 @@
   font-family: 'jasmine';
   src: url('../fonts/font.ttf');
 }
+160404 13:30 用fontforge改字型成功啦

@@ -10,9 +10,16 @@
 
 @font-face {
   font-family: 'jasmine';
-  src: url('../fonts/KC.ttf');
+  src: url(../fonts/jasmine.eot); /* IE9 Compat Modes */
+  src: url(../fonts/jasmine.eot?#iefix) format("embedded-opentype"), /* IE6-IE8 */
+       url(../fonts/jasmine.woff) format("woff"), /* Modern Browsers */
+       url(../fonts/jasmine.ttf) format("truetype"), /* Safari, Android, iOS */
+       url(../fonts/jasmine.svg#SealmemoryHeader) format("svg"); /* Legacy iOS */
 }
-
+@font-face {
+  font-family: 'A1';
+  src: url('../fonts/A1.otf'); /* Safari, Android, iOS */
+}
  /*@font-face {
    font-family: 'jasmine';
    font-style: normal;
@@ -74,6 +81,9 @@ a:focus,
 a:active,
 a.active {
 }
+.section-heading{
+font-family: "cwtexming",serif;
+}
 .content {
   font:16px "Microsoft JhengHei",  sans-serif;
   font-weight: 400;
@@ -83,7 +93,6 @@ a.active {
   text-align: justify;/* 左右對齊 */
   text-justify:inter-ideograph;/* 左右對齊 */
 }
-
 .content-section-a {
       padding: 0px 0px 0px 0px;
       background-color: #fff9f6;
@@ -101,7 +110,6 @@ a.active {
       width: 10px;
       border-top: 0px solid #e7e7e7;
 }
-
 .banner{
       font-family: "cwtexming",serif;
       padding: 5px 0px 5px 0px;

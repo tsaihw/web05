@@ -87,11 +87,9 @@ font-family: "cwtexming",serif;
 .content {
   font:18px "Microsoft JhengHei",  sans-serif;
   font-weight: 400;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.3px;
   margin:0 0 20px;
-  line-height: 1.8;
-  text-align: justify;/* 左右對齊 */
-  text-justify:inter-ideograph;/* 左右對齊 */
+  line-height: 1.5;
 }
 .content-section-a {
       padding: 0px 0px 0px 0px;
@@ -214,6 +212,13 @@ font-family: "cwtexming",serif;
 
 /* 大螢幕設定 */
 @media (min-width: 768px) {
+.content {
+  font:18px "Microsoft JhengHei",  sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  margin:0 0 20px;
+  line-height: 1.5;
+}
 .content-section-a {
         padding: 50px 0px 30px 0px;
         background-color: #fff9f6;
@@ -224,16 +229,6 @@ font-family: "cwtexming",serif;
       border-bottom: 2px solid #f0e3df;
       background-color: #fff6f3;
 }
-.lead {
-  font:18px "Microsoft JhengHei",  sans-serif;
-  font-weight: 400;
-  letter-spacing: 0.5px;
-  margin:0 0 20px;
-  line-height: 1.8;
-  text-align: justify;/* 左右對齊 */
-  text-justify:inter-ideograph;/* 左右對齊 */
-  }
-
 /* 滑動前navbar顏色&大小 */
   .navbar-default {
     background-color: #FFF6F2;

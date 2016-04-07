@@ -93,16 +93,21 @@ font-family: "cwtexming",serif;
 }
 .content-section-a {
       padding: 0px 0px 0px 0px;
-      background-color: #fff9f6;
+      background: -webkit-radial-gradient(ellipse,white,#E5E3D4);
+      background: -o-radial-gradient(ellipse,white,#E5E3D4);
+      background: -moz-radial-gradient(ellipse,white,#E5E3D4);
+      background: radial-gradient(ellipse,white,#E5E3D4);
 }
 
 .content-section-b {
       padding: 10px 0px 15px 0px;
-      border-top: 2px solid #f0e3df;
-      border-bottom: 2px solid #f0e3df;
-      background-color: #fff6f3;
+      background: -webkit-radial-gradient(ellipse,white,#F3F0E9);
+      background: -o-radial-gradient(ellipse,white,#F3F0E9);
+      background: -moz-radial-gradient(ellipse,white,#F3F0E9);
+      background: radial-gradient(ellipse,white,#F3F0E9);
+      border-top: 2px solid #F5F2EC;
+      border-bottom: 1px solid #F5F2EC;
 }
-
 .section-heading-spacer {
       float: left;
       width: 10px;
@@ -111,7 +116,7 @@ font-family: "cwtexming",serif;
 .banner{
       padding: 5px 0px 5px 0px;
       border-top: 1px solid #151515;
-      background-color: #FFF6F2;
+      background-color: #EAE8DB;
 }
 .banner-head{
       font-family: "jasmine",serif;
@@ -140,14 +145,14 @@ font-family: "cwtexming",serif;
 }
 /* navbar底色=小裝置 */
 .navbar-default {
-  background-color: #FFF6F2;
+  background-color: #EAE8DB;
   padding: 7px 0 1px 0;
-  border-top: 2px solid #151515;
-  border-bottom: 1px solid #f0e3df;
+  border-top: 2px solid #463020;
+  border-bottom: 1px solid #DBD9CA;
 }
 /* navbar brand字型=小裝置 */
 .navbar-default .navbar-brand {
-  color: #222222;
+  color: #463020;
   font-size: 1.9em;
   font-family: "jasmine",serif;
 }
@@ -199,14 +204,14 @@ font-family: "cwtexming",serif;
 .navbar-default .navbar-nav > .active > a {
   border-radius: 0;
   color: #222222;
-  background-color: #FFF6F2;
+  background-color: #EAE8DB;
 }
 
 /* navbar list用滑鼠選定時的顏色 */
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #222222;
-  background-color: #FFF6F2;
+  background-color: #EAE8DB;
 }
 /******************* navbar list*********************/
 
@@ -221,23 +226,29 @@ font-family: "cwtexming",serif;
 }
 .content-section-a {
         padding: 50px 0px 30px 0px;
-        background-color: #fff9f6;
+        background: -webkit-radial-gradient(ellipse,white,#E5E3D4);
+        background: -o-radial-gradient(ellipse,white,#E5E3D4);
+        background: -moz-radial-gradient(ellipse,white,#E5E3D4);
+        background: radial-gradient(ellipse,white,#E5E3D4);
 }
 .content-section-b {
       padding: 30px 0px 65px 0px;
-      border-top: 2px solid #f0e3df;
-      border-bottom: 2px solid #f0e3df;
-      background-color: #fff6f3;
+      background: -webkit-radial-gradient(ellipse,white,#F3F0E9);
+      background: -o-radial-gradient(ellipse,white,#F3F0E9);
+      background: -moz-radial-gradient(ellipse,white,#F3F0E9);
+      background: radial-gradient(ellipse,white,#F3F0E9);
+      border-top: 2px solid #F5F2EC;
+      border-bottom: 1px solid #F5F2EC;
 }
 /* 滑動前navbar顏色&大小 */
   .navbar-default {
-    background-color: #FFF6F2;
+    background-color: #EAE8DB;
     padding: 8px 0 0 0;
     -webkit-transition: padding 0.7s;
     -moz-transition: padding 0.7s;
     transition: padding 0.7s;
-    border-top: 2px solid #151515;
-    border-bottom: 1px solid #f0e3df;
+    border-top: 2px solid #463020;
+    border-bottom: 1px solid #DBD9CA;
   }
 /* 滑動後navbar顏色&大小
   .navbar-default.navbar-shrink {
@@ -248,7 +259,7 @@ font-family: "cwtexming",serif;
   .navbar-default .navbar-brand {
     font-family: "jasmine",serif;
     font-size: 2.3em;
-    color: #222222;
+    color: #463020;
     /* font-weight:bold;粗體看起來很不秀麗*/
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -266,8 +277,8 @@ font-family: "cwtexming",serif;
 .navbar-default .navbar-nav > .active > a {
     border-radius: 0;
     color: #222222;
-    background-color: #FFF6F2;
-    border-bottom: 2px solid #555555;
+    background-color: #EAE8DB;
+    border-bottom: 2px solid #463020;
   }
 }
 header {
